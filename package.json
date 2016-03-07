@@ -1,5 +1,5 @@
 {
-  "name": "node-smartcrop",
+  "name": "jimp-smartcrop",
   "version": "0.0.1",
   "description": "Content aware image cropping for Node.js based on Jimp.",
   "homepage": "https://github.com/arabold/node-smartcrop",
