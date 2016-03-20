@@ -1,9 +1,17 @@
 # jimp-smartcrop
 
-`node-smartcrop` is a fork of [SmartCrop.js](https://github.com/jwagner/smartcrop.js) to run on 
+`jimp-smartcrop` is a fork of [SmartCrop.js](https://github.com/jwagner/smartcrop.js) to run on 
 Node.js using [Jimp](https://github.com/oliver-moran/jimp) and without any native dependencies. 
 It implements an algorithm to find good crops for images.
-Face detection is based on [ccv-purejs](https://github.com/orls/ccv-purejs).
+
+This library also contains a face detection algorithm based on [ccv-purejs](https://github.com/orls/ccv-purejs).
+However, at this point the smart cropping and face detection is _not_ connected to each other but separate
+functionality.
+
+THIS LIBARARY IS PROVIDED *AS IS* WITHOUT ANY INTENT TO FURTHER MAINTAIN FOR NOW. I've written
+this as I planned to use it, but things turned out differently. However, I leave this here in case you find it useful.
+In my eyes the best would be to rewrite the smart crop and face detection to become plugins for JIMP itself.
+
 
 ![Example](http://29a.ch/sandbox/2014/smartcrop/example.jpg)
 Image: [https://www.flickr.com/photos/endogamia/5682480447/](https://www.flickr.com/photos/endogamia/5682480447) by N. Feans
